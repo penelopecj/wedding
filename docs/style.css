@@ -1,3 +1,8 @@
+.bold {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
@@ -108,6 +113,15 @@ h2, h1 {
 }
 
 .title-banner, .countdown-banner {
+    text-align: center;
+}
+
+.travel-banner {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.travel-banner h2, .travel-banner h1 {
     text-align: center;
 }
 
