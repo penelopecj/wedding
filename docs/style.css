@@ -84,7 +84,7 @@ h2, h1 {
 
 .photo-banner .index-img {
     width: 30%;
-    height: 100%;
+    height: auto;
     margin: 7px;
     padding: 8px;
     border: 6px outset rgba(192, 192, 192, 0.8);
@@ -93,7 +93,7 @@ h2, h1 {
 
 .photo-banner .reg-img {
     width: 50%;
-    height: 100%;
+    height: auto;
     margin: 7px;
     padding: 8px;
     border: 6px outset rgba(192, 192, 192, 0.8);
