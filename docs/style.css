@@ -30,15 +30,20 @@ nav {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none;
     position: fixed;
     right: 0;
+    padding: 0;
     top: 0;
 }
 
 .top-nav a {
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 0.3rem;
 }
 
 .top-nav a:hover {
@@ -89,6 +94,7 @@ h2, h1 {
 
 .photo-banner .index-img {
     width: 30%;
+    max-width: 30%;
     height: auto;
     margin: 7px;
     padding: 8px;
@@ -98,6 +104,7 @@ h2, h1 {
 
 .photo-banner .reg-img {
     width: 50%;
+    max-width: 50%;
     height: auto;
     margin: 7px;
     padding: 8px;
@@ -109,7 +116,7 @@ h2, h1 {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    max-width: 700px;
+    width: 80%;
 }
 
 .title-banner, .countdown-banner {
@@ -117,7 +124,7 @@ h2, h1 {
 }
 
 .travel-banner {
-    width: 65%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -145,4 +152,13 @@ h2, h1 {
     50% {color: rgb(153, 0, 255)}
     75% {color: magenta}
     100% {color: rgb(202, 0, 125)}
+}
+
+@media only screen and (max-width: 400px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    .travel-banner, .photo-banner {
+        width: 100%;
+    }
 }
