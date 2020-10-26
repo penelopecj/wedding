@@ -93,7 +93,6 @@ h2, h1 {
 }
 
 .photo-banner .index-img {
-    width: 30%;
     max-width: 30%;
     height: auto;
     margin: 7px;
@@ -103,7 +102,6 @@ h2, h1 {
 }
 
 .photo-banner .reg-img {
-    width: 50%;
     max-width: 50%;
     height: auto;
     margin: 7px;
