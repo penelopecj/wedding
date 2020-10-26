@@ -114,7 +114,7 @@ h2, h1 {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    width: 80%;
+    max-width: 840px; 
 }
 
 .title-banner, .countdown-banner {
