@@ -115,6 +115,7 @@ h2, h1 {
     display: flex;
     justify-content: center;
     max-width: 840px; 
+    max-height: 400px;
 }
 
 .title-banner, .countdown-banner {
